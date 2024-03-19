@@ -1,0 +1,130 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images\ fundi/work.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    max-height: 60vh;
+}
+#header {
+    background-image: linear-gradient(45deg, pink, blue, white);
+    border-bottom: solid 3px red;
+    /* display: flex;
+    flex-direction: column; */
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+navbar ul {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+navbar ul li {
+    margin-left: 30px;
+}
+navbar ul li a {
+    float: left;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+navbar ul li.split {
+    margin-left: auto;
+}
+a:hover {
+    cursor: pointer;
+    color: red ;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+#description {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    margin-top: 70px;
+    justify-content: space-around;
+    background-color: hsl(208, 100%, 97%, 0.5);
+    width: 100%;
+    padding: 10px;
+}
+
+ #description img {
+    background-color: rgb(230, 234, 237);
+    margin: 3px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 1.2rem;
+}
+p {
+    color: rgb(37, 2, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.client {
+    border: none;
+    float: right;
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.fundi {
+    border: none;
+    float: right;
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 4.1rem;
+}
+#one {
+    display: block;
+    justify-content: space-around;
+}
+#contacts {
+    background-image: linear-gradient(45deg, gray, white, rgb(232, 224, 224));
+    display: flex ;
+
+}
+.contacts li{
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    padding-bottom: 100px;
+
+ }
+ .contacts li a {
+    margin-left: 10rem;
+
+}
+.contacts p {
+    text-align: center;
+    color: red;
+    padding: 3px;
+    font-weight: 800;
+}

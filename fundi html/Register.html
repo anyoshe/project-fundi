@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/fundi css/register.css">
+    <title>Registration form</title>
+</head>
+<body>
+  <article id="form">
+  <div id="h2">
+    <h2>FUNDI REGISTRATION FORM</h2> 
+  </div>
+  <div id="container">
+    <form id="registration-form" method="get">
+        <label for="fname">Full names as in Id/Passport:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Id number/Passport number:</label>
+        <input type="string" id="pnumber" name="pnumber" required><br><br>
+        <label for="contact">contacts:</label>
+        <input type="number" id="contact" name="contact" required><br><br>
+        <label for="proffession">Proffession:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="experience">Experience:</label>
+        <input type="number" id="number" name="number" required><br><br>
+        <label for="days">Days available:</label>
+        <select id="days" required>
+            <option value="all">All Days</option>
+            <option value="five">Monday to Friday</option>
+            <option value="six">Monday to Saturday</option>
+            <option value="six">Sunday to Friday</option>
+          </select>
+           <br><br>
+        <label for="rcontact">Recommendors contact:</label>
+        <input type="number" id="rcontact" name="rcontact" required><br><br>
+
+        <label for="myfile">Attach your ID/Passport and certificates :</label>
+        <input type="file" id="myfile" name="myfile" required><br><br>
+        <label for="myfile">Attach recommendation letter/testmonials:</label>
+        <input type="file" id="myfile" name="myfile" required><br><br> 
+        <button type="submit" value="Submit"> Submit</button>
+      </form>
+    </div>
+  </article>
+      <script src="form.js"></script>
+</body>
+</html>
+

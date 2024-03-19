@@ -1,0 +1,76 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images\ fundi/background.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    margin-right: 20px;
+    
+}
+#form {
+    display: flex;
+    /* margin: 1rem auto; */
+    /* background-color: rgb(255, 255, 255, 0.7); */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#h2 {
+    background-image: repeating-linear-gradient(45deg, blue, red, yellow);
+    padding: 3em;
+    display: flex;
+    border: 2px solid black;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%; 
+
+}
+   h2 { 
+    padding: 2px;
+    margin-left: 10em;
+    
+}
+#container {
+   background-color: aqua;
+   border: none;
+   padding: 10px;
+   align-items: center;
+   max-width: 50%;
+   float: right;
+   margin-left: 10px;
+   border-radius: 15px;
+   margin-top: 5px;
+}
+#registration-form {
+    padding: 5px;
+}
+label {
+    color: black;
+    line-height: 22px;
+    font-weight: 800;
+}
+input {
+    width: 100%;
+    line-height: 22px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+}
+button {
+    align-content: center;
+    background-color: blue;
+    width: 30%;
+    line-height: 40px;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30%;
+
+}
